@@ -84,3 +84,55 @@ footer p {
     width: 2rem;
     height: auto;
 }
+
+@media (max-width:1024px) {
+    .footer-component {
+        width: 12rem;
+    }
+}
+
+@media (max-width:768px) {
+    footer {
+        margin-top: 3.125rem;
+        gap: 1rem;
+    }
+
+    footer .wrapper-footer {
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    footer p:nth-child(1){
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    footer .social-media {
+        align-items: center;
+    }
+
+    .footer-component {
+        width: 11rem;
+    }
+
+    .enterprise {
+        gap: .5rem;
+    }
+
+
+}
+
+@media (max-width:480px) {
+    footer p {
+        font-size: .9rem;
+
+    } 
+
+    footer .wrapper-footer {
+        justify-content: space-around;
+    }
+}
